@@ -1,0 +1,12 @@
+{
+  "name": "the-felix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./assets/input.css -o ./assets/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
