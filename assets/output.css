@@ -1500,6 +1500,31 @@
       border-bottom-right-radius: calc(2rem + 1px);
     }
   }
+  .lg\:bg-gradient-to-r {
+    @media (width >= 64rem) {
+      --tw-gradient-position: to right in oklab;
+      background-image: linear-gradient(var(--tw-gradient-stops));
+    }
+  }
+  .lg\:from-\[rgba\(194\,122\,255\,1\)\] {
+    @media (width >= 64rem) {
+      --tw-gradient-from: rgba(194,122,255,1);
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+  .lg\:via-orange-300 {
+    @media (width >= 64rem) {
+      --tw-gradient-via: var(--color-orange-300);
+      --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+      --tw-gradient-stops: var(--tw-gradient-via-stops);
+    }
+  }
+  .lg\:to-\[rgba\(129\,128\,1\,0\)\] {
+    @media (width >= 64rem) {
+      --tw-gradient-to: rgba(129,128,1,0);
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
   .lg\:px-6 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 6);
