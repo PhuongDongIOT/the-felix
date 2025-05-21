@@ -11,7 +11,13 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         html {
             scroll-behavior: smooth;
@@ -52,14 +58,30 @@
             </div>
             <div class="hidden lg:block relative lg:absolute md:bottom-16 w-full lg:h-6">
                 <div class="mx-8 relative grid grid-cols-3 lg:grid-cols-5 max-w-2xl gap-4">
-                    <img src="./assets/images/mi/z6623233676126_645ab8f16395da1f795cad3a1d4ca246.webp" alt="Phương Đông"
-                        class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
-                    <img src="./assets/images/mi/z6623233657386_bbfe15c4b23497927f4a5eafccb827a8.webp" alt="Phương Đông"
-                        class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
-                    <img src="./assets/images/mi/z6623233696106_ed22a25ea5c4bf102df4de007d6f1d10.webp" alt="Phương Đông"
-                        class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
-                    <img src="./assets/images/mi/z6623233622803_99b86001bdbdd915034579c5440e1238.webp" alt="Phương Đông"
-                        class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
+                    <a href="./assets/images/mi/z6623233676126_645ab8f16395da1f795cad3a1d4ca246.webp"
+                        data-fancybox="gallery" data-caption="Single image">
+                        <img src="./assets/images/mi/z6623233676126_645ab8f16395da1f795cad3a1d4ca246.webp"
+                            alt="Phương Đông"
+                            class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
+                    </a>
+                    <a href="./assets/images/mi/z6623233657386_bbfe15c4b23497927f4a5eafccb827a8.webp"
+                        data-fancybox="gallery" data-caption="Single image">
+                        <img src="./assets/images/mi/z6623233657386_bbfe15c4b23497927f4a5eafccb827a8.webp"
+                            alt="Phương Đông"
+                            class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
+                    </a>
+                    <a href="./assets/images/mi/z6623233696106_ed22a25ea5c4bf102df4de007d6f1d10.webp"
+                        data-fancybox="gallery" data-caption="Single image">
+                        <img src="./assets/images/mi/z6623233696106_ed22a25ea5c4bf102df4de007d6f1d10.webp"
+                            alt="Phương Đông"
+                            class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
+                    </a>
+                    <a href="./assets/images/mi/z6623233622803_99b86001bdbdd915034579c5440e1238.webp"
+                        data-fancybox="gallery" data-caption="Single image">
+                        <img src="./assets/images/mi/z6623233622803_99b86001bdbdd915034579c5440e1238.webp"
+                            alt="Phương Đông"
+                            class="h-full w-full object-cover rounded-xl brightness-75 hover:brightness-100">
+                    </a>
                 </div>
             </div>
         </section>
@@ -69,27 +91,46 @@
         <section>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
                 <div class="flex flex-col gap-4">
-                    <img class="w-full rounded-lg"
-                        src="./assets/images/mi/z6623233676125_93218eaad84979732ef39180bf67a715.webp" alt="">
-                    <img class="w-full rounded-lg"
-                        src="./assets/images/mi/z6623233676126_645ab8f16395da1f795cad3a1d4ca246.webp" alt="">
+                    <a href="./assets/images/mi/z6623233676125_93218eaad84979732ef39180bf67a715.webp"
+                        data-fancybox="sale" data-caption="Single image">
+                        <img class="w-full rounded-lg"
+                            src="./assets/images/mi/z6623233676125_93218eaad84979732ef39180bf67a715.webp" alt="">
+                    </a>
+                    <a href="./assets/images/mi/z6623233676126_645ab8f16395da1f795cad3a1d4ca246.webp"
+                        data-fancybox="sale" data-caption="Single image">
+                        <img class="w-full rounded-lg"
+                            src="./assets/images/mi/z6623233676126_645ab8f16395da1f795cad3a1d4ca246.webp" alt="">
+                    </a>
                 </div>
                 <div class="lg:col-span-2 grid grid-cols-2 gap-4">
                     <div class="w-auto h-full">
-                        <img class="w-auto h-full rounded-lg object-cover"
-                            src="./assets/images/mi/z6623233676248_24266fd1a3841e69d236841b98cc2531.webp" alt="">
+                        <a href="./assets/images/mi/z6623233676248_24266fd1a3841e69d236841b98cc2531.webp"
+                            data-fancybox="sale" data-caption="Single image">
+                            <img class="w-auto h-full rounded-lg object-cover"
+                                src="./assets/images/mi/z6623233676248_24266fd1a3841e69d236841b98cc2531.webp" alt="">
+                        </a>
                     </div>
                     <div class="w-auto h-full">
-                        <img class="w-auto h-full rounded-lg object-cover"
-                            src="./assets/images/mi/z6623233696106_ed22a25ea5c4bf102df4de007d6f1d10.webp" alt="">
+                        <a href="./assets/images/mi/z6623233696106_ed22a25ea5c4bf102df4de007d6f1d10.webp"
+                            data-fancybox="sale" data-caption="Single image">
+                            <img class="w-auto h-full rounded-lg object-cover"
+                                src="./assets/images/mi/z6623233696106_ed22a25ea5c4bf102df4de007d6f1d10.webp" alt="">
+                        </a>
                     </div>
                     <div class="w-auto h-full">
-                        <img class="w-auto h-full rounded-lg object-cover"
-                            src="./assets/images/mi/z6623233622803_99b86001bdbdd915034579c5440e1238.webp" alt="">
+                        <a href="./assets/images/mi/z6623233622803_99b86001bdbdd915034579c5440e1238.webp"
+                            data-fancybox="sale" data-caption="Single image">
+                            <img class="w-auto h-full rounded-lg object-cover"
+                                src="./assets/images/mi/z6623233622803_99b86001bdbdd915034579c5440e1238.webp" alt="">
+
+                        </a>
                     </div>
                     <div class="w-auto h-full">
-                        <img class="w-auto h-full rounded-lg object-cover"
-                            src="./assets/images/mi/z6623233657386_bbfe15c4b23497927f4a5eafccb827a8.webp" alt="">
+                        <a href="./assets/images/mi/z6623233657386_bbfe15c4b23497927f4a5eafccb827a8.webp"
+                            data-fancybox="sale" data-caption="Single image">
+                            <img class="w-auto h-full rounded-lg object-cover"
+                                src="./assets/images/mi/z6623233657386_bbfe15c4b23497927f4a5eafccb827a8.webp" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -718,39 +759,54 @@
             <div class="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
                 <div
                     class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+                    <a href="./assets/images/3d/The Felix_C02_Playground.webp"
+                        data-fancybox="slide" data-caption="Single image">
                     <img alt="" loading="lazy" width="3744" height="5616" decoding="async" data-nimg="1"
                         class="absolute inset-0 h-full w-full object-cover" style="color:transparent"
                         sizes="(min-width: 640px) 18rem, 11rem"
                         srcset="./assets/images/3d/The Felix_C02_Playground.webp"
                         src="./assets/images/3d/The Felix_C02_Playground.webp">
+                        </a>
                 </div>
                 <div
                     class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 -rotate-2">
+                    <a href="./assets/images/3d/The Felix_C03_Pool.webp"
+                        data-fancybox="slide" data-caption="Single image">
                     <img alt="" loading="lazy" width="3936" height="2624" decoding="async" data-nimg="1"
                         class="absolute inset-0 h-full w-full object-cover" style="color:transparent"
                         srcset="./assets/images/3d/The Felix_C03_Pool.webp" sizes="(min-width: 640px) 18rem, 11rem"
                         src="./assets/images/3d/The Felix_C03_Pool.webp">
+                        </a>
                 </div>
                 <div
                     class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+                    <a href="./assets/images/3d/The Felix_C07_Shophouse.webp"
+                        data-fancybox="slide" data-caption="Single image">
                     <img alt="" loading="lazy" width="5760" height="3840" decoding="async" data-nimg="1"
                         class="absolute inset-0 h-full w-full object-cover" style="color:transparent"
                         sizes="(min-width: 640px) 18rem, 11rem" srcset="./assets/images/3d/The Felix_C07_Shophouse.webp"
                         src="./assets/images/3d/The Felix_C07_Shophouse.webp">
+                        </a>
                 </div>
                 <div
                     class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+                    <a href="./assets/images/3d/The Felix_C08_Pool.webp"
+                        data-fancybox="slide" data-caption="Single image">
                     <img alt="" loading="lazy" width="2400" height="3000" decoding="async" data-nimg="1"
                         class="absolute inset-0 h-full w-full object-cover" style="color:transparent"
                         sizes="(min-width: 640px) 18rem, 11rem" srcset="./assets/images/3d/The Felix_C08_Pool.webp"
                         src="./assets/images/3d/The Felix_C08_Pool.webp">
+                        </a>
                 </div>
                 <div
                     class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 -rotate-2">
+                    <a href="./assets/images/3d/Tiện ích tầng 21.webp"
+                        data-fancybox="slide" data-caption="Single image">
                     <img alt="" loading="lazy" width="4240" height="2384" decoding="async" data-nimg="1"
                         class="absolute inset-0 h-full w-full object-cover" style="color:transparent"
                         sizes="(min-width: 640px) 18rem, 11rem" srcset="./assets/images/3d/Tiện ích tầng 21.webp"
                         src="./assets/images/3d/Tiện ích tầng 21.webp">
+                        </a>
                 </div>
             </div>
         </div>
